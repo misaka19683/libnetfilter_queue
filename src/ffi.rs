@@ -23,8 +23,8 @@ pub struct nfgenmsg;
 #[repr(C)]
 pub struct nfq_data;
 
-#[repr(C)]
-#[packed]
+///#[repr(C)]
+#[repr(C, packed)]
 /// The NFQueue specific packet data
 pub struct nfqnl_msg_packet_hdr {
     /// The packet id
