@@ -10,7 +10,7 @@ extern crate num;
 #[macro_use]
 extern crate lazy_static;
 
-pub mod ffi;
+mod ffi;
 
 mod util;
 mod lock;
